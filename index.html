@@ -9,9 +9,73 @@
 </head>
 <body>
     <input type="text" name="source-text" id="source-text" autocomplete="off">
-    <button type="submit" onclick="romanizeText()" >Go</button>
+    <button type="submit" id="go-button">Go</button>
     <input type="text" name="result-text" id="result-text" autocomplete="off">
 </body>
 <footer></footer>
-<script src="site.js"></script>
+
+<script type="module">
+    import easternArmenian from "../alphabets/eastern-armenian.json" assert { type: "json" };
+
+    const simpleReplacement = function(input, lookFor, replacement){
+        var lookForRex = new RegExp(lookFor, 'g');
+        return input.replace(lookForRex, replacement);
+    }
+
+    const startsWithReplacement = function(input, lookFor, replacement){
+        var result = input;
+        // peel off the ^
+        replacement = replacement.replace('^','');
+        // now split the text to get the two options
+        let options = replacement.split('|');
+
+        // perform the startswith operation
+        var lookForRex = new RegExp('^' + lookFor);
+        result = result.replace(lookForRex, options[0]);
+
+        // now perform the non-startsWith operation
+        var lookForRex = new RegExp(lookFor,'g');
+        result = result.replace(lookForRex, options[1]);
+
+        return result;
+    }
+
+    const processorReplacement = function(input, lookFor, replacement){
+        // digest the instructions. Start by peeling off the tilde
+        replacement = replacement.replace('~', '');
+
+        // is it the '^' Starts With instruction?
+        if (replacement.startsWith('^')){
+            return startsWithReplacement(input, lookFor, replacement);
+        }
+    }
+
+    const romanizeText = function() {
+        let textToRomanize = document.getElementById('source-text').value;
+        let result = textToRomanize; // Default the result to the InputText
+
+        let words = textToRomanize.split(' ');
+        for(var word in words){
+            for(var rowNumber in easternArmenian.symbols){
+                var row = easternArmenian.symbols[rowNumber];
+                
+                if (row.replacement.startsWith('~')){
+                    result = processorReplacement(result, row.lookFor, row.replacement);
+                }
+                else{
+                    result = simpleReplacement(result, row.lookFor, row.replacement);
+                }
+            }
+        }
+
+        let resultElement = document.getElementById('result-text');
+        resultElement.setAttribute('value', result);
+    }
+
+    window.addEventListener('load', function () {
+
+        document.getElementById('go-button').addEventListener("click", romanizeText);
+
+    }, false);
+</script>
 </html>
