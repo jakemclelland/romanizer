@@ -15,3 +15,4 @@ We welcome community pull requests for bug fixes, enhancements, and documentatio
 # Getting support
 
 If you encounter a bug or would like to request a feature, [submit an issue.](https://github.com/jakemclelland/romanizer/issues/new/choose)
+Have a question or an idea? Feel free to [start a discussion](https://github.com/jakemclelland/romanizer/discussions) for it.
