@@ -8,9 +8,33 @@
     <title>Romanizer</title>
 </head>
 <body>
-    <input type="text" name="source-text" id="source-text" autocomplete="off">
-    <button type="submit" id="go-button">Go</button>
-    <input type="text" name="result-text" id="result-text" autocomplete="off">
+    <header>
+        <h1>Romanizer</h1>
+    </header>
+    <div class="language-selection">
+        <label for="language-selector">Select a supported language:</label>
+        <select id="language-selector">
+            <option value="eastern-armenian">Eastern Armenian</option>
+        </select>
+    </div>
+    <div class="grid-container text-inputs">
+        <div class="grid-child">
+            <label for="source-text">Enter <span id="chosen-language"></span> Text</label>
+            <div class="textareaElement" name="source-text" id="source-text" contenteditable></div>
+        </div>
+        <div class="grid-child">
+            <button type="submit" id="go-button">Romanize!</button>
+        </div>
+        <div class="grid-child">
+            <label for="source-text">Result</label>
+            <div class="textareaElement" name="result-text" id="result-text" contenteditable></div>
+        </div>
+    </div>
+    <footer>
+        <h2>Getting support</h2>
+        If you encounter a bug or would like to request a feature, submit an issue <a href="https://github.com/jakemclelland/romanizer/issues/new/choose">here</a>. <br>
+        Have a question or an idea? Feel free to start a discussion for it <a href="https://github.com/jakemclelland/romanizer/discussions">here</a>.
+    </footer>
 </body>
 <footer></footer>
 
