@@ -1,0 +1,67 @@
+header {
+    font-family: sans-serif;
+    color: #404040;
+    margin: 1rem 1rem 3rem 1rem;
+}
+body{
+    font-family: sans-serif;
+    color: #404040;
+}
+
+.language-selection{
+    margin: 1rem 1rem 3rem 1rem;
+}
+
+.text-inputs{
+    margin: 1rem;
+}
+
+select{
+    border: 1px solid #ccc;
+}
+
+label {
+    margin: 5px;
+}
+
+.textareaElement {
+    width: 300px;
+    min-height: 17px;
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: 5px;
+    padding: 5px;
+}
+
+button {
+    min-height: 17px;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.text-inputs{
+    display: inline-block;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr 4fr;
+    grid-gap: 20px;
+}
+
+#go-button {
+    margin-top: 1.5rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    height: 50px;
+    margin-left: 1rem;
+    font-size: 0.9rem;
+    color: #404040cb;
+}
