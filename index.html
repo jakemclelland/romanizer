@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <base href="{{site.baseurl}}" />
     <link rel="stylesheet" href="site.css">
     <title>Romanizer</title>
+    <base href="romanizer" />
 </head>
 <body>
     <input type="text" name="source-text" id="source-text" autocomplete="off">
@@ -16,7 +16,7 @@
 <footer></footer>
 
 <script type="module">
-    import easternArmenian from "/alphabets/eastern-armenian.json" assert { type: "json" };
+    import easternArmenian from "../alphabets/eastern-armenian.json" assert { type: "json" };
 
     const simpleReplacement = function(input, lookFor, replacement){
         var lookForRex = new RegExp(lookFor, 'g');
