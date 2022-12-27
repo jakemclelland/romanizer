@@ -36,7 +36,6 @@
         Have a question or an idea? Feel free to start a discussion for it <a href="https://github.com/jakemclelland/romanizer/discussions">here</a>.
     </footer>
 </body>
-<footer></footer>
 
 <script type="module">
     import easternArmenian from "../romanizer/alphabets/eastern-armenian.json" assert { type: "json" };
@@ -75,7 +74,7 @@
     }
 
     const romanizeText = function() {
-        let textToRomanize = document.getElementById('source-text').value;
+        let textToRomanize = document.getElementById('source-text').innerText;
         let result = textToRomanize; // Default the result to the InputText
 
         let words = textToRomanize.split(' ');
@@ -93,7 +92,7 @@
         }
 
         let resultElement = document.getElementById('result-text');
-        resultElement.setAttribute('value', result);
+        resultElement.innerText = result;
     }
 
     window.addEventListener('load', function () {
