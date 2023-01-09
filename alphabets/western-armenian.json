@@ -1,0 +1,341 @@
+{
+    "displayName": "Western Armenian",
+    "symbols": [
+        {
+            "lookFor": "Ա",
+            "replacement": "A"
+        },
+        {
+            "lookFor": "Բ",
+            "replacement": "P"
+        },
+        {
+            "lookFor": "Գ",
+            "replacement": "K"
+        },
+        {
+            "lookFor": "Դ",
+            "replacement": "T"
+        },
+        {
+            "lookFor": "Ե",
+            "replacement": "~^Ye:E"
+        },
+        {
+            "lookFor": "Զ",
+            "replacement": "Z"
+        },
+        {
+            "lookFor": "Է",
+            "replacement": "Ē"
+        },
+        {
+            "lookFor": "Ը",
+            "replacement": "Ĕ"
+        },
+        {
+            "lookFor": "Թ",
+            "replacement": "T‘"
+        },
+        {
+            "lookFor": "Ժ",
+            "replacement": "Zh"
+        },
+        {
+            "lookFor": "Ի",
+            "replacement": "I"
+        },
+        {
+            "lookFor": "Լ",
+            "replacement": "L"
+        },
+        {
+            "lookFor": "Խ",
+            "replacement": "Kh"
+        },
+        {
+            "lookFor": "Ծ",
+            "replacement": "Dz"
+        },
+        {
+            "lookFor": "Կ",
+            "replacement": "G"
+        },
+        {
+            "lookFor": "Հ",
+            "replacement": "H"
+        },
+        {
+            "lookFor": "Ձ",
+            "replacement": "Ts"
+        },
+        {
+            "lookFor": "Ղ",
+            "replacement": "Gh"
+        },
+        {
+            "lookFor": "Ճ",
+            "replacement": "J"
+        },
+        {
+            "lookFor": "Մ",
+            "replacement": "M"
+        },
+        {
+            "lookFor": "Յ",
+            "replacement": "Y"
+        },
+        {
+            "lookFor": "Ն",
+            "replacement": "N"
+        },
+        {
+            "lookFor": "Շ",
+            "replacement": "Sh"
+        },
+        {
+            "lookFor": "Ո",
+            "replacement": "~^Vo:O"
+        },
+        {
+            "lookFor": "Չ",
+            "replacement": "Ch‘"
+        },
+        {
+            "lookFor": "Պ",
+            "replacement": "B"
+        },
+        {
+            "lookFor": "Ջ",
+            "replacement": "Ch"
+        },
+        {
+            "lookFor": "Ռ",
+            "replacement": "Ṛ"
+        },
+        {
+            "lookFor": "Ս",
+            "replacement": "S"
+        },
+        {
+            "lookFor": "Վ",
+            "replacement": "V"
+        },
+        {
+            "lookFor": "Տ",
+            "replacement": "D"
+        },
+        {
+            "lookFor": "Ր",
+            "replacement": "R"
+        },
+        {
+            "lookFor": "Ց",
+            "replacement": "Ts‘"
+        },
+        {
+            "lookFor": "Ււ",
+            "replacement": "W"
+        },
+        {
+            "lookFor": "ՈՒ",
+            "replacement": "U"
+        },
+        {
+            "lookFor": "Փ",
+            "replacement": "P‘"
+        },
+        {
+            "lookFor": "Ք",
+            "replacement": "K‘"
+        },
+        {
+            "lookFor": "Օ",
+            "replacement": "Ō"
+        },
+        {
+            "lookFor": "Ֆ",
+            "replacement": "F"
+        },
+        {
+            "lookFor": "ա",
+            "replacement": "a"
+        },
+        {
+            "lookFor": "բ",
+            "replacement": "p"
+        },
+        {
+            "lookFor": "գ",
+            "replacement": "k"
+        },
+        {
+            "lookFor": "դ",
+            "replacement": "t"
+        },
+        {
+            "lookFor": "ե",
+            "replacement": "~^ye:e"
+        },
+        {
+            "lookFor": "զ",
+            "replacement": "z"
+        },
+        {
+            "lookFor": "է",
+            "replacement": "ē"
+        },
+        {
+            "lookFor": "ը",
+            "replacement": "ĕ"
+        },
+        {
+            "lookFor": "թ",
+            "replacement": "t‘"
+        },
+        {
+            "lookFor": "ժ",
+            "replacement": "zh"
+        },
+        {
+            "lookFor": "ի",
+            "replacement": "i"
+        },
+        {
+            "lookFor": "լ",
+            "replacement": "l"
+        },
+        {
+            "lookFor": "խ",
+            "replacement": "kh"
+        },
+        {
+            "lookFor": "ծ",
+            "replacement": "dz"
+        },
+        {
+            "lookFor": "կ",
+            "replacement": "g"
+        },
+        {
+            "lookFor": "հ",
+            "replacement": "h"
+        },
+        {
+            "lookFor": "ձ",
+            "replacement": "ts"
+        },
+        {
+            "lookFor": "ղ",
+            "replacement": "gh"
+        },
+        {
+            "lookFor": "ճ",
+            "replacement": "j"
+        },
+        {
+            "lookFor": "մ",
+            "replacement": "m"
+        },
+        {
+            "lookFor": "յ",
+            "replacement": "y"
+        },
+        {
+            "lookFor": "ն",
+            "replacement": "n"
+        },
+        {
+            "lookFor": "շ",
+            "replacement": "sh"
+        },
+        {
+            "lookFor": "ո",
+            "replacement": "~^vo:o"
+        },
+        {
+            "lookFor": "չ",
+            "replacement": "ch‘"
+        },
+        {
+            "lookFor": "պ",
+            "replacement": "b"
+        },
+        {
+            "lookFor": "ջ",
+            "replacement": "ch"
+        },
+        {
+            "lookFor": "ռ",
+            "replacement": "ṛ"
+        },
+        {
+            "lookFor": "ս",
+            "replacement": "s"
+        },
+        {
+            "lookFor": "վ",
+            "replacement": "v"
+        },
+        {
+            "lookFor": "տ",
+            "replacement": "d"
+        },
+        {
+            "lookFor": "ր",
+            "replacement": "r"
+        },
+        {
+            "lookFor": "ց",
+            "replacement": "ts‘"
+        },
+        {
+            "lookFor": "ււ",
+            "replacement": "w"
+        },
+        {
+            "lookFor": "ու",
+            "replacement": "u"
+        },
+        {
+            "lookFor": "փ",
+            "replacement": "p‘"
+        },
+        {
+            "lookFor": "ք",
+            "replacement": "k‘"
+        },
+        {
+            "lookFor": "օ",
+            "replacement": "ō"
+        },
+        {
+            "lookFor": "ֆ",
+            "replacement": "f"
+        },
+        {
+            "lookFor": "և",
+            "replacement": "ew"
+        },
+        {
+            "lookFor": "ﬓ",
+            "replacement": "mn"
+        },
+        {
+            "lookFor": "ﬔ",
+            "replacement": "me"
+        },
+        {
+            "lookFor": "ﬕ",
+            "replacement": "mi"
+        },
+        {
+            "lookFor": "ﬖ",
+            "replacement": "vn"
+        },
+        {
+            "lookFor": "ﬗ",
+            "replacement": "mkh"
+        }
+    ]
+}

@@ -1,0 +1,349 @@
+{
+    "displayName": "Russian",
+    "symbols": [
+        {
+            "lookFor": "А",
+            "replacement": "A"
+        },
+        {
+            "lookFor": "Б",
+            "replacement": "B"
+        },
+        {
+            "lookFor": "В",
+            "replacement": "V"
+        },
+        {
+            "lookFor": "Г",
+            "replacement": "G"
+        },
+        {
+            "lookFor": "Д",
+            "replacement": "D"
+        },
+        {
+            "lookFor": "Е",
+            "replacement": "E"
+        },
+        {
+            "lookFor": "Ё",
+            "replacement": "Ë"
+        },
+        {
+            "lookFor": "Ж",
+            "replacement": "Zh"
+        },
+        {
+            "lookFor": "З",
+            "replacement": "Z"
+        },
+        {
+            "lookFor": "Ѕ",
+            "replacement": "Z`"
+        },
+        {
+            "lookFor": "И",
+            "replacement": "I"
+        },
+        {
+            "lookFor": "Ӣ",
+            "replacement": "J"
+        },
+        {
+            "lookFor": "И́",
+            "replacement": "I"
+        },
+        {
+            "lookFor": "Й",
+            "replacement": "Ĭ"
+        },
+        {
+            "lookFor": "І",
+            "replacement": "Ī"
+        },
+        {
+            "lookFor": "К",
+            "replacement": "K"
+        },
+        {
+            "lookFor": "Л",
+            "replacement": "L"
+        },
+        {
+            "lookFor": "Љ",
+            "replacement": "L`"
+        },
+        {
+            "lookFor": "М",
+            "replacement": "M"
+        },
+        {
+            "lookFor": "Н",
+            "replacement": "N"
+        },
+        {
+            "lookFor": "Њ",
+            "replacement": "N`"
+        },
+        {
+            "lookFor": "О",
+            "replacement": "O"
+        },
+        {
+            "lookFor": "П",
+            "replacement": "P"
+        },
+        {
+            "lookFor": "Р",
+            "replacement": "R"
+        },
+        {
+            "lookFor": "С",
+            "replacement": "S"
+        },
+        {
+            "lookFor": "Т",
+            "replacement": "T"
+        },
+        {
+            "lookFor": "У",
+            "replacement": "U"
+        },
+        {
+            "lookFor": "Ф",
+            "replacement": "F"
+        },
+        {
+            "lookFor": "Х",
+            "replacement": "Kh"
+        },
+        {
+            "lookFor": "Ц",
+            "replacement": "T͡s"
+        },
+        {
+            "lookFor": "Ч",
+            "replacement": "Ch"
+        },
+        {
+            "lookFor": "Ш",
+            "replacement": "Sh"
+        },
+        {
+            "lookFor": "Щ",
+            "replacement": "Shch"
+        },
+        {
+            "lookFor": "Ъ",
+            "replacement": "ʺ"
+        },
+        {
+            "lookFor": "Ы",
+            "replacement": "Y"
+        },
+        {
+            "lookFor": "Ь",
+            "replacement": "ʹ"
+        },
+        {
+            "lookFor": "Э",
+            "replacement": "Ė"
+        },
+        {
+            "lookFor": "Ю",
+            "replacement": "I͡U"
+        },
+        {
+            "lookFor": "Я",
+            "replacement": "I͡A"
+        },
+        {
+            "lookFor": "Ѳ",
+            "replacement": "Ḟ"
+        },
+        {
+            "lookFor": "Ѵ",
+            "replacement": "Ẏ"
+        },
+        {
+            "lookFor": "’",
+            "replacement": "’"
+        },
+        {
+            "lookFor": "Ѣ",
+            "replacement": "I͡E"
+        },
+        {
+            "lookFor": "а",
+            "replacement": "a"
+        },
+        {
+            "lookFor": "б",
+            "replacement": "b"
+        },
+        {
+            "lookFor": "в",
+            "replacement": "v"
+        },
+        {
+            "lookFor": "г",
+            "replacement": "g"
+        },
+        {
+            "lookFor": "д",
+            "replacement": "d"
+        },
+        {
+            "lookFor": "е",
+            "replacement": "e"
+        },
+        {
+            "lookFor": "ё",
+            "replacement": "ë"
+        },
+        {
+            "lookFor": "ж",
+            "replacement": "zh"
+        },
+        {
+            "lookFor": "з",
+            "replacement": "z"
+        },
+        {
+            "lookFor": "ѕ",
+            "replacement": "z`"
+        },
+        {
+            "lookFor": "и",
+            "replacement": "i"
+        },
+        {
+            "lookFor": "ӣ",
+            "replacement": "j"
+        },
+        {
+            "lookFor": "и́",
+            "replacement": "i"
+        },
+        {
+            "lookFor": "й",
+            "replacement": "ĭ"
+        },
+        {
+            "lookFor": "і",
+            "replacement": "ī"
+        },
+        {
+            "lookFor": "к",
+            "replacement": "k"
+        },
+        {
+            "lookFor": "л",
+            "replacement": "l"
+        },
+        {
+            "lookFor": "љ",
+            "replacement": "l`"
+        },
+        {
+            "lookFor": "м",
+            "replacement": "m"
+        },
+        {
+            "lookFor": "н",
+            "replacement": "n"
+        },
+        {
+            "lookFor": "њ",
+            "replacement": "n`"
+        },
+        {
+            "lookFor": "о",
+            "replacement": "o"
+        },
+        {
+            "lookFor": "п",
+            "replacement": "p"
+        },
+        {
+            "lookFor": "р",
+            "replacement": "r"
+        },
+        {
+            "lookFor": "с",
+            "replacement": "s"
+        },
+        {
+            "lookFor": "т",
+            "replacement": "t"
+        },
+        {
+            "lookFor": "у",
+            "replacement": "u"
+        },
+        {
+            "lookFor": "ф",
+            "replacement": "f"
+        },
+        {
+            "lookFor": "х",
+            "replacement": "kh"
+        },
+        {
+            "lookFor": "ц",
+            "replacement": "t͡s"
+        },
+        {
+            "lookFor": "ч",
+            "replacement": "ch"
+        },
+        {
+            "lookFor": "ш",
+            "replacement": "sh"
+        },
+        {
+            "lookFor": "щ",
+            "replacement": "shch"
+        },
+        {
+            "lookFor": "ъ",
+            "replacement": "ʺ"
+        },
+        {
+            "lookFor": "ы",
+            "replacement": "y"
+        },
+        {
+            "lookFor": "ь",
+            "replacement": "ʹ"
+        },
+        {
+            "lookFor": "э",
+            "replacement": "ė"
+        },
+        {
+            "lookFor": "ю",
+            "replacement": "i͡u"
+        },
+        {
+            "lookFor": "я",
+            "replacement": "i͡a"
+        },
+        {
+            "lookFor": "ѳ",
+            "replacement": "ḟ"
+        },
+        {
+            "lookFor": "ѵ",
+            "replacement": "ẏ"
+        },
+        {
+            "lookFor": "’",
+            "replacement": "’"
+        },
+        {
+            "lookFor": "ѣ",
+            "replacement": "i͡e"
+        }
+    ]
+}

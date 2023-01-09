@@ -39,11 +39,21 @@
 
 <script type="module">
     import easternArmenian from "../alphabets/eastern-armenian.json" assert { type: "json" };
+    import westernArmenian from "../alphabets/western-armenian.json" assert { type: "json" };
+    import russian from "../alphabets/russian.json" assert { type: "json" };
 
     const alphabets = [
         {
             'definitions': easternArmenian,
             'languageName': 'easternArmenian'
+        },
+        {
+            'definitions': westernArmenian,
+            'languageName': 'westernArmenian'
+        },
+        {
+            'definitions': russian,
+            'languageName': 'russian'
         }
     ]
 
