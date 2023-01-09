@@ -14,7 +14,7 @@
     <div class="language-selection">
         <label for="language-selector">Select a supported language:</label>
         <select id="language-selector">
-            <option value="eastern-armenian">Eastern Armenian</option>
+            
         </select>
     </div>
     <div class="grid-container text-inputs">
@@ -38,7 +38,14 @@
 </body>
 
 <script type="module">
-    import easternArmenian from "../romanizer/alphabets/eastern-armenian.json" assert { type: "json" };
+    import easternArmenian from "../alphabets/eastern-armenian.json" assert { type: "json" };
+
+    const alphabets = [
+        {
+            'definitions': easternArmenian,
+            'languageName': 'easternArmenian'
+        }
+    ]
 
     const simpleReplacement = function(input, lookFor, replacement){
         var lookForRex = new RegExp(lookFor, 'g');
@@ -73,29 +80,52 @@
         }
     }
 
-    const romanizeText = function() {
-        let textToRomanize = document.getElementById('source-text').innerText;
-        let result = textToRomanize; // Default the result to the InputText
+    const convertText = function(textToRomanize, language) {
+        let resultText = textToRomanize; // Default the result to the InputText
+        let selectedLangDefinitions = alphabets.find(function(x) {if(x.languageName == language) return x}).definitions;
 
         let words = textToRomanize.split(' ');
         for(var word in words){
-            for(var rowNumber in easternArmenian.symbols){
-                var row = easternArmenian.symbols[rowNumber];
+            for(var rowNumber in selectedLangDefinitions.symbols){
+                var row = selectedLangDefinitions.symbols[rowNumber];
                 
                 if (row.replacement.startsWith('~')){
-                    result = processorReplacement(result, row.lookFor, row.replacement);
+                    resultText = processorReplacement(resultText, row.lookFor, row.replacement);
                 }
                 else{
-                    result = simpleReplacement(result, row.lookFor, row.replacement);
+                    resultText = simpleReplacement(resultText, row.lookFor, row.replacement);
                 }
             }
         }
 
+        return resultText;
+    }
+
+    const romanizeText = function() {
+        let textToRomanize = document.getElementById('source-text').innerText;
         let resultElement = document.getElementById('result-text');
-        resultElement.innerText = result;
+
+        let languageSelectorElement = document.getElementById('language-selector');
+        
+        let language = languageSelectorElement.value;
+        let resultText = convertText(textToRomanize, language);
+
+        resultElement.innerText = resultText;
+    }
+
+    const setupLanguageSelector = function(){
+        alphabets.forEach((supportedLanguage) => { 
+            let languageSelectorElement = document.getElementById('language-selector');
+            let optionHtml = document.createElement("option");
+            optionHtml.text = supportedLanguage.definitions.displayName;
+            optionHtml.value = supportedLanguage.languageName;
+            languageSelectorElement.appendChild(optionHtml);
+         });
     }
 
     window.addEventListener('load', function () {
+
+        setupLanguageSelector();
 
         document.getElementById('go-button').addEventListener("click", romanizeText);
 
