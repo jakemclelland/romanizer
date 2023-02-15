@@ -19,7 +19,7 @@
         },
         {
             "lookFor": "Ե",
-            "replacement": "~^Ye:E"
+            "replacement": "~^Ye|E"
         },
         {
             "lookFor": "Զ",
@@ -95,7 +95,7 @@
         },
         {
             "lookFor": "Ո",
-            "replacement": "~^Vo:O"
+            "replacement": "~^Vo|O"
         },
         {
             "lookFor": "Չ",
@@ -175,7 +175,7 @@
         },
         {
             "lookFor": "ե",
-            "replacement": "~^ye:e"
+            "replacement": "~^ye|e"
         },
         {
             "lookFor": "զ",
@@ -251,7 +251,7 @@
         },
         {
             "lookFor": "ո",
-            "replacement": "~^vo:o"
+            "replacement": "~^vo|o"
         },
         {
             "lookFor": "չ",
